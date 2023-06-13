@@ -1,11 +1,23 @@
 .menu {
-    background: #30ac9c;
-    padding: 10px 0 10px 40px;
-    display: flex;
-    column-gap: 15px;
+  background: #30ac9c;
+  padding: 10px 0 10px 40px;
+  display: flex;
+  column-gap: 15px;
+  width: 100%;
+
+  & a {
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    column-gap: 8px;
     width: 100%;
 
     & a {
-        color: #fff;
+      color: #fff;
+      font-size: 10px;
     }
+  }
 }

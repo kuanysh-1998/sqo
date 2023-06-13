@@ -1,11 +1,11 @@
 .services__content {
   width: 100%;
   display: flex;
-  padding: 10px 42px;
+  padding: 10px 40px;
   margin: 0 auto;
   .card {
     border: 1px solid rgba(0, 0, 0, 0.1);
-    min-width: 400px;
+    max-width: 400px;
     width: 100%;
     position: relative;
     border-radius: 10px;
@@ -50,6 +50,16 @@
       right: 0;
       bottom: 0;
       border-radius: 0 0 10px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .services__content {
+    .card {
+      max-width: 300px;
+      padding: 10px;
+      padding-bottom: 155px;
     }
   }
 }

@@ -52,3 +52,13 @@
 }
 
 
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 10px 20px;
+  
+    &__content {
+      display: flex;
+      column-gap: 20px;
+    }
+  }
+}

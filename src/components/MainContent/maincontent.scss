@@ -43,14 +43,44 @@
       flex-direction: column;
       height: 25vh;
 
-      // &__description {
-      //   margin-right: 0;
-      //   & h1 {
-      //     line-height: 35px;
-      //     font-weight: 600;
-      //     font-size: 25px;
-      //   }
-      // }
+      &__description {
+        margin-right: 0;
+        & h1 {
+          line-height: 35px;
+          font-weight: 600;
+          font-size: 25px;
+        }
+      }
+
+      &__title {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+
+        & p {
+          font-weight: 500;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    padding: 0;
+    .mainContent {
+      flex-direction: column;
+      height: 25vh;
+
+      &__description {
+        margin-right: 0;
+        & h1 {
+          line-height: 35px;
+          font-weight: 600;
+          font-size: 15px;
+        }
+      }
 
       &__title {
         display: flex;

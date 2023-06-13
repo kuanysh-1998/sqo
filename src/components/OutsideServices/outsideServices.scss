@@ -45,6 +45,7 @@
   .outsideServices {
     .content {
       grid-template-columns: repeat(1, 1fr);
+      align-items: center;
 
       .card {
         column-gap: 7px;

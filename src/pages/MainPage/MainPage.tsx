@@ -13,8 +13,7 @@ const MainPage = () => {
     dispatch(setOpenedModal(false));
   }, []);
   return (
-
-      <div className="mainPage">
+    <div className="mainPage">
       <div className="inside">
         <Services />
       </div>
