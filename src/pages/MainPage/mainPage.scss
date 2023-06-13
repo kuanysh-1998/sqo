@@ -1,0 +1,32 @@
+.mainPage {
+  display: flex;
+  flex-direction: column;
+
+  .inside {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    // padding: 10px 30px;
+    margin: 0 auto;
+  }
+
+  .outside {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+    .mainPage {
+      .inside {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+
+@media screen and (max-width: 600px) {
+  .mainPage {
+    .inside {
+      grid-template-columns: 1fr;
+      justify-content: center;
+    }
+  }
+}

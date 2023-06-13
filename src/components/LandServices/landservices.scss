@@ -1,0 +1,40 @@
+.landService {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .card {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.15);
+    padding: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+
+    img {
+      width: 40px;
+    }
+
+    & h2 {
+      font-size: 35px;
+      font-weight: 700;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .landService{
+
+    .card {
+      padding: 20px;
+
+
+      & h2 {
+        font-weight: 500;
+        font-size: 16;
+      }
+    }
+  }
+}

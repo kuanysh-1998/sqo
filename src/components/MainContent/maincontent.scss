@@ -1,0 +1,59 @@
+.mainContent {
+  background-image: url("https://e-sqo.kz/banner_bg.02f32ad4211502d10c4d.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 36vh;
+  border-radius: 14px;
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  &__description {
+    margin-right: 40px;
+    & h1 {
+      line-height: 50px;
+      font-weight: 700;
+      font-size: 35px;
+    }
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+
+    & p {
+        font-weight: 500;
+        font-size:20px;
+    }
+  }
+}
+
+
+
+@media screen and (max-width:900px) {
+  .mainContent {
+    flex-direction: column;
+    margin: 0 auto;
+    &__description {
+      & h1 {
+        line-height: 35px;
+        font-weight: 600;
+        font-size: 20px;
+      }
+    }
+  
+    &__title {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+  
+      & p {
+          font-weight: 500;
+          font-size: 15px;
+      }
+    }
+  }
+}
