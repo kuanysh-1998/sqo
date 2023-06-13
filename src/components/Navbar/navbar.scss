@@ -1,4 +1,7 @@
 .navbar {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 30px;
   &__content {
     // display: flex;
     align-items: center;
@@ -75,8 +78,10 @@
 @media screen and (max-width: 1200px) {
   .navbar {
     &__content {
-      grid-template-columns: repeat(2, 1fr);
-      column-gap: -20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
     &__center {
@@ -90,11 +95,3 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .navbar {
-    &__content {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-}

@@ -3,7 +3,7 @@ import "./maincontent.scss";
 
 const MainContent = () => {
   return (
-    <div className="container">
+    <div className="main-container">
       <div className="mainContent">
         <div className="mainContent__description">
           <h1>УСЛУГИ В ЭЛЕКТРОННОМ ВИДЕ <br/> – ЭКОНОМЬТЕ СВОЕ ВРЕМЯ!</h1>

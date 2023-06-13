@@ -13,11 +13,13 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <div className="container">
         <div className="navbar__content">
-          <Link to="/" className="navbar__left">
+          <div className="navbar__left">
+          <Link to="/" >
             <img src="https://e-sqo.kz/assets/logo/logo.svg" alt="logo" />
           </Link>
+          </div>
+        
 
           <div className="navbar__center">
             <label>
@@ -47,7 +49,6 @@ const Navbar = () => {
             <span className="highlight">RUS</span>
             <span>QAZ</span>
           </div>
-        </div>
       </div>
     </div>
   );
