@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sqo/static/css/main.d316a174.css",
+    "main.js": "/sqo/static/js/main.a06993a9.js",
+    "index.html": "/sqo/index.html",
+    "main.d316a174.css.map": "/sqo/static/css/main.d316a174.css.map",
+    "main.a06993a9.js.map": "/sqo/static/js/main.a06993a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d316a174.css",
+    "static/js/main.a06993a9.js"
+  ]
+}
