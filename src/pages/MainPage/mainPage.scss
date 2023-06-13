@@ -1,6 +1,7 @@
 .mainPage {
   display: flex;
   flex-direction: column;
+  width: 100%;
 
   .inside {
     display: grid;
@@ -18,11 +19,3 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .mainPage {
-    .outside {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-}

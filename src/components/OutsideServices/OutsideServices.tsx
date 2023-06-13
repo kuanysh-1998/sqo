@@ -60,18 +60,23 @@ const OutsideServices = () => {
       <h2>ВНЕШНИЕ УСЛУГИ</h2>
 
       <div className="content">
-        {data
-          .filter((item) =>
-            item.title.toLowerCase().includes(searchValue.toLowerCase())
-          )
-          .map((item) => (
-            <a href={item.link} target="_blank" className="card" key={item.id}>
-              <img src={item.image} alt={item.title} />
-              <h3>{item.title}</h3>
-            </a>
-          ))}
+          {data
+            .filter((item) =>
+              item.title.toLowerCase().includes(searchValue.toLowerCase())
+            )
+            .map((item) => (
+              <a
+                href={item.link}
+                target="_blank"
+                className="card"
+                key={item.id}
+              >
+                <img src={item.image} alt={item.title} />
+                <h3>{item.title}</h3>
+              </a>
+            ))}
+        </div>
       </div>
-    </div>
   );
 };
 

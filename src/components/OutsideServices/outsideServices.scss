@@ -1,5 +1,4 @@
 .outsideServices {
-  width: 100%;
   margin: 0 auto;
   padding: 10px 30px;
   margin-top: 20px;
@@ -32,7 +31,7 @@
 @media screen and (max-width: 1200px) {
   .outsideServices {
     .content {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
 
       .card {
         column-gap: 7px;
@@ -42,10 +41,15 @@
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .outsideServices {
     .content {
       grid-template-columns: repeat(1, 1fr);
+
+      .card {
+        column-gap: 7px;
+        padding: 20px;
+      }
     }
   }
 }
