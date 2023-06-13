@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 
   .card {
     display: flex;
@@ -24,17 +25,17 @@
   }
 }
 
-// @media screen and (max-width: 1000px) {
-//   .landService{
+@media screen and (max-width: 600px) {
+  .landService {
+    padding: 20px;
 
-//     .card {
-//       padding: 35px;
-
-
-//       & h2 {
-//         font-weight: 500;
-//         font-size: 16;
-//       }
-//     }
-//   }
-// }
+    .card {
+      max-width: 600px;
+      padding: 10px;
+      & h2 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+  }
+}
