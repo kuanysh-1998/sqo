@@ -37,7 +37,6 @@ const ServiceInfo = () => {
   }, []);
 
   return (
-    <div className="container">
       <div className="serviceInfo">
         <h2>{findMyService?.description}</h2>
 
@@ -75,7 +74,6 @@ const ServiceInfo = () => {
           </ul>
         </div>
       </div>
-    </div>
   );
 };
 
