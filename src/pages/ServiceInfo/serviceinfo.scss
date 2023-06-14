@@ -86,22 +86,12 @@
           font-weight: 600;
           font-size: 22px;
       }
-  
-      ul {
-          display: flex;
-          flex-direction: column;
-          row-gap: 15px;
-  
-          li {
-              font-size: 18px;
-          }
-      }
     }
   }
 }
 @media screen and (max-width: 600px) {
+
   .serviceInfo {
-    padding: 10px 10px;
     .links {
       display: flex;
       flex-direction: column;
@@ -112,6 +102,7 @@
           display: flex;
           flex-direction: column;
           row-gap: 15px;
+          padding-right: 10px;
   
           li {
               font-size: 14px;
